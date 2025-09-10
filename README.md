@@ -22,7 +22,7 @@ Creating a digital sanctuary that combines absolute technical security with prof
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          │              ┌─────────────────┐              │
-         └──────────────►│   Database      │◄─────────────┘
+         └─────────────►│   Database      │◄─────────────┘
                         │ (Encrypted)     │
                         └─────────────────┘
 ```
