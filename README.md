@@ -1,4 +1,4 @@
-# Voices Unheard
+# Voices Unheard Documentation
 
 A secure digital platform designed as a safe space for individuals affected by conflict—including war victims, refugees, and discrimination survivors—to share their stories anonymously.
 
@@ -171,7 +171,7 @@ Creating a digital sanctuary that combines absolute technical security with prof
 
 ## 📄 License
 
-This project is licensed under [LICENSE] - see the LICENSE file for details.
+This project is licensed under Boost Software License 1.0 - see the licensed file for details.
 
 ## ⚠️ Important Notes
 
@@ -184,3 +184,5 @@ This project is licensed under [LICENSE] - see the LICENSE file for details.
 ## 🌟 Impact
 
 Voices Unheard provides a critical digital sanctuary for some of the world's most vulnerable individuals, ensuring their stories can be shared safely while maintaining absolute privacy and security. The platform serves as a model for ethical technology design that puts human dignity and safety first.
+
+---
