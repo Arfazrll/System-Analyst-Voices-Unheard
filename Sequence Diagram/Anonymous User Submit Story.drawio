@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram id="1pz3DkK-L3bhXKVeb0ei" name="Halaman-1">
+    <mxGraphModel dx="1277" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R5ZShxVqr3gZTyGVQ3pB-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" edge="1" parent="1" target="R5ZShxVqr3gZTyGVQ3pB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="716" as="sourcePoint" />
+            <mxPoint x="209" y="204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#FFFFFF);strokeColor=light-dark(#000000,#000000);gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="203" y="247" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Sequence Diagram #2 - Anonymous User Submit Story" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+          <mxGeometry x="365" y="105" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="storyController" value="StoryController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="338" y="157" width="120" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#FFFFFF);" parent="storyController" vertex="1">
+          <mxGeometry x="55" y="90" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="metadataCleanerService" value="MetadataCleanerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#FFFFFF,#121212);" parent="1" vertex="1">
+          <mxGeometry x="488" y="157" width="140" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#FFFFFF);" parent="metadataCleanerService" vertex="1">
+          <mxGeometry x="65" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiModerationService" value="AIModerationService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#FFFFFF,#121212);" parent="1" vertex="1">
+          <mxGeometry x="688" y="157" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="act4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#FFFFFF);" parent="aiModerationService" vertex="1">
+          <mxGeometry x="60" y="210" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="storyModel" value="StoryModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#FFFFFF,#121212);" parent="1" vertex="1">
+          <mxGeometry x="873" y="157" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="act5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#FFFFFF);" parent="storyModel" vertex="1">
+          <mxGeometry x="45" y="290" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" value="&lt;span&gt;1: submitStory(storyData, file)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;entryX=0.076;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);exitX=0.989;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="act1" target="act2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="208" y="257" as="sourcePoint" />
+            <mxPoint x="368" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" value="2: cleanFileMetadata(file)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;entryX=0.007;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.973;exitY=0.158;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" source="act2" target="act3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="368" y="297" as="sourcePoint" />
+            <mxPoint x="538" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" value="3: cleanedFile" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=11;exitX=-0.062;exitY=0.835;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.059;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" source="act3" target="act2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="538" y="337" as="sourcePoint" />
+            <mxPoint x="408" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" value="4: preModerationCheck(storyData)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;entryX=-0.078;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.045;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" source="act2" target="act4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="408" y="377" as="sourcePoint" />
+            <mxPoint x="713" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" value="5: moderationResult" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=11;exitX=-0.14;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" source="act4" target="act2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="713" y="417" as="sourcePoint" />
+            <mxPoint x="408" y="417" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6" value="6: saveStory(cleanedStoryData)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;exitX=1.015;exitY=0.656;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" source="act2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="368" y="457" as="sourcePoint" />
+            <mxPoint x="918" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7" value="7: storyId, deletionToken" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=11;entryX=1.03;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);" parent="1" target="act2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="918" y="497" as="sourcePoint" />
+            <mxPoint x="368" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;8: submissionSuccess(deletionToken)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;fontSize=11;exitX=0.005;exitY=0.906;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#121212);entryX=1.022;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="act2" target="act1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="368" y="537" as="sourcePoint" />
+            <mxPoint x="218" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5ZShxVqr3gZTyGVQ3pB-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
+          <mxGeometry x="196" y="157" width="24" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="R5ZShxVqr3gZTyGVQ3pB-10" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Anonymous User&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="156.31" y="200" width="103.38" height="16.19" as="geometry" />
+        </mxCell>
+        <mxCell id="R5ZShxVqr3gZTyGVQ3pB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5ZShxVqr3gZTyGVQ3pB-10" target="R5ZShxVqr3gZTyGVQ3pB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
